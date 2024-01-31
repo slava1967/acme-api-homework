@@ -24,7 +24,7 @@ curl http://127.0.0.1:5000/api/v1/calendar/1/
 
 ### обновление текста заметки по идентификатору / ID == 1 /  новый текст == "new text"
 ```
-curl http://127.0.0.1:5000/api/v1/note/1/ -X PUT -d "2024-01-01|title|new text"
+curl http://127.0.0.1:5000/api/v1/calendar/1/ -X PUT -d "2024-01-01|title|new text"
 ```
 
 ### удаление заметки по идентификатору / ID == 1
